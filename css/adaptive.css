@@ -1,0 +1,206 @@
+@media screen and (max-width: 1120px) {
+
+    #franchise #franchise-container, #main #main-container, #benefit #benefit-container, #get #get-container, #strategy #strategy-container, #goal #goal-container, #footer #footer-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #header-container {
+        padding: 20px;
+        max-width: 1110px;
+    }
+
+    #header-container #header-logo {
+        margin-left: 0;
+    }
+
+    #franchise #franchise-container .franchise-list-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #franchise #franchise-container .franchise-titles-container {
+        text-align: center;
+    }
+
+    #franchise #franchise-container .franchise-list-container .franchise-item {
+        height: 317px;
+    }
+
+    #strategy #strategy-container .strategy-list {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #strategy #strategy-container, #footer #footer-container {
+        text-align: center;
+    }
+
+    #footer #footer-container .footer-contacts {
+        text-align: left;
+    }
+
+    #strategy #strategy-container .strategy-list {
+        gap: 70px;
+    }
+
+    #benefit #benefit-container .benefit-container-desc {
+        gap: 0;
+    }
+
+    #offer #offer-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1023px) {
+
+
+    #header-menu {
+        left: 0;
+        top: 0px;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-container #header-menu .menu-item {
+        align-items: center;
+    }
+
+    #header-container #header-menu .menu-item a {
+        color: white;
+        padding: 20px 0px;
+    }
+
+    #header-container #header-menu .menu-item, .menu-bnt button {
+        color: white;
+    }
+
+    #burger {
+        display: flex;
+    }
+
+    #header-menu.menu-open {
+        display: flex;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    #offer #offer-container {
+        flex-wrap: wrap;
+    }
+
+    #franchise #franchise-container .franchise-titles-container, #benefit #benefit-container h2 {
+        text-align: center;
+    }
+
+    #benefit #benefit-container .benefit-container-desc {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    #consultation{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #header-logo img{
+        width: 200px;
+    }
+
+    #main #main-heading {
+        margin-left: 0;
+    }
+
+    #main #main-heading .bnt button {
+        width: 100%;
+    }
+
+    #get #get-container .get-list {
+        flex-wrap: wrap;
+    }
+
+    #offer #offer-container .offer-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #offer #offer-container .offer-info{
+        margin-right: 0;
+        padding: 55px 10px 55px 10px;
+    }
+
+    #benefit #benefit-container, #strategy #strategy-container .strategy-list .strategy-list-item, #footer-container iframe, #strategy #strategy-container .strategy-list .strategy-list-item .strategy-item-image img, .bnt-more button, .bnt button {
+        width: 100%;
+    }
+
+    #benefit-container .benefit-container-desc .benefit-desc-image img{
+        width: 280px;
+    }
+
+    #franchise #franchise-container .franchise-list-container .franchise-item {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px 10px;
+        height: auto;
+    }
+
+    #benefit #benefit-container .benefit-container-desc .benefit-desc-text .benefit-desc-list .benefit-list-circle {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        display: flex;
+        flex: none;
+    }
+
+    #tagline #tagline-container{
+        padding: 75px 20px 75px 20px;
+    }
+
+    #footer #footer-container .footer-contacts{
+        margin-right: 0;
+    }
+
+    .strategy-popup, #franchise #franchise-container .franchise-list-container .franchise-item, #benefit #benefit-container, #strategy #strategy-container .strategy-list .strategy-list-item{
+        width: 280px;
+    }
+
+    .strategy-container-popup .strategy-popup .strategy-item-design{
+        padding-bottom: 15px;
+    }
+
+    .strategy-popup{
+        padding: 15px;
+    }
+
+    #consultation{
+        padding: 10px;
+        width: 280px;
+    }
+
+    #consultation-content .bnt button{
+        margin-bottom: 0;
+    }
+
+}

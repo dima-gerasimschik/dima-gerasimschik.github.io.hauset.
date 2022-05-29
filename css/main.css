@@ -1,0 +1,799 @@
+@font-face {
+    font-family: "Uni Neue";
+    src: url("../fonts/UniNeueRegular.ttf");
+}
+
+@font-face {
+    font-family: "Uni Neue Bold";
+    src: url("../fonts/UniNeueBold.ttf");
+}
+
+@font-face {
+    font-family: "Uni Neue Black";
+    src: url("../fonts/UniNeueBlack.ttf");
+}
+
+@font-face {
+    font-family: "Uni Neue Book";
+    src: url("../fonts/UniNeueBook.ttf");
+}
+
+@font-face {
+    font-family: "Uni Neue Italic";
+    src: url("../fonts/UniNeueRegular-italic.ttf");
+}
+
+@font-face {
+    font-family: "Uni Neue Heavy";
+    src: url("../fonts/UniNeueHeavy.ttf");
+}
+
+body {
+    background-color: #F6F6F6;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#header-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#burger{
+    display: none;
+    color: #282828;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+#header-container #header-logo {
+    margin-left: 30px;
+}
+
+#header-menu {
+    display: flex;
+    column-gap: 50px;
+}
+
+#header-container #header-menu .menu-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    color: #282828;
+}
+
+#header-container #header-menu a {
+    text-decoration: none;
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 16px;
+    color: #282828;
+}
+
+#header-container #header-menu .menu-item .menu-phone {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 20px;
+}
+
+#header-container #header-menu .menu-item .menu-bnt button {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 14px;
+    border: 0;
+    background: transparent;
+    outline: 0;
+    padding: 4px 0 0 0;
+    cursor: pointer;
+}
+
+#main {
+    background-image: url("../images/image-block-1.png");
+    background-size: cover;
+    height: 810px;
+    background-position: center;
+}
+
+#main #main-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+#main #main-heading {
+    margin-left: 50px;
+    margin-top: 150px;
+    color: #171714;
+    max-width: 900px;
+}
+
+#main #main-heading h1 {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+#main #main-heading h1 span {
+    color: #FAD537;
+    background-color: #171714;
+    padding: 0px 10px;
+}
+
+#main #main-heading #main-heading-text {
+    font-family: 'Uni Neue Bold', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 15px 0 60px 0;
+}
+
+#main #main-heading .bnt {
+    padding: 0;
+}
+
+.bnt button {
+    font-family: "Uni Neue Black", sans-serif;
+    font-size: 18px;
+    width: 306px;
+    height: 54px;
+    background: #FAD537;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#offer {
+    padding: 80px 0;
+}
+
+#offer #offer-container {
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#offer #offer-container .offer-image img {
+    height: 662px;
+    width: 558px;
+}
+
+#offer #offer-container .offer-info {
+    color: #171714;
+    margin-right: 133px;
+    padding: 55px 0 55px 50px;
+}
+
+#offer #offer-container .offer-info .offer-info-owner {
+    border-left: 4px solid #FAD537;
+    padding-left: 10px;
+}
+
+#offer #offer-container .offer-info .offer-info-title {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 24px;
+    align-items: center;
+}
+
+#offer #offer-container .offer-info .offer-info-text {
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 20px 0 65px 0;
+}
+
+#offer #offer-container .offer-info .offer-info-owner .owner-name {
+    font-family: 'Uni Neue Bold', sans-serif;
+    font-size: 14px;
+}
+
+#offer #offer-container .offer-info .offer-info-owner .owner-name-position {
+    font-family: 'Uni Neue Italic', sans-serif;
+    font-size: 14px;
+}
+
+#franchise {
+    padding: 105px 0 135px 0;
+    background-color: white;
+}
+
+#franchise #franchise-container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+#franchise #franchise-container .franchise-titles-container {
+    color: #171714;
+}
+
+#franchise #franchise-container .franchise-titles-container .franchise-titles-title {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 30px;
+}
+
+#franchise #franchise-container .franchise-titles-container .franchise-titles-title span {
+    background-color: #FAD537;
+    padding-right: 20px;
+}
+
+#franchise #franchise-container .franchise-titles-container .franchise-titles-text {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 20px 0 35px 0;
+}
+
+#franchise #franchise-container .franchise-list-container {
+    display: flex;
+    gap: 30px;
+}
+
+#franchise #franchise-container .franchise-list-container .franchise-item {
+    background: #F6F6F6;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+#franchise #franchise-container .franchise-list-container .franchise-item .franchise-item-title {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 20px;
+    color: #171714;
+    margin-bottom: 15px;
+}
+
+#franchise #franchise-container .franchise-list-container .franchise-item .franchise-item-text {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    width: 271px;
+}
+
+#franchise #franchise-container .franchise-list-container .franchise-item .franchise-item-text div {
+    margin-top: 10px;
+}
+
+#franchise #franchise-container .franchise-list-container .franchise-item .franchise-item-text div:nth-child(2) {
+    margin-top: 0px;
+}
+
+#benefit {
+    padding: 80px 0 95px 0;
+}
+
+#benefit #benefit-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #171714;
+}
+
+#benefit #benefit-container h2 {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+#benefit #benefit-container h2 span {
+    background-color: #FAD537;
+    padding: 0 6px;
+}
+
+#benefit #benefit-container .benefit-container-desc {
+    display: flex;
+    gap: 50px;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-text .benefit-desc-list {
+    display: flex;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-text .benefit-desc-list .benefit-list-circle {
+    width: 65px;
+    height: 65px;
+    background: #FAD537;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-text .benefit-desc-list .benefit-text-title {
+    font-family: 'Uni Neue Heavy', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-text .benefit-desc-list .benefit-text-text {
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#benefit #benefit-container .benefit-container-desc .benefit-desc-image {
+    margin-top: 15px;
+}
+
+#get {
+    background-color: white;
+    padding: 70px 0 45px 0;
+}
+
+#get #get-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #171714;
+}
+
+#get #get-container h2 {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+#get #get-container h2 span {
+    background-color: #FAD537;
+    padding: 0 6px;
+}
+
+#get #get-container .get-list {
+    display: flex;
+    gap: 62px;
+}
+
+#get #get-container .get-desc {
+    margin: 30px 0 40px;
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 18px;
+}
+
+#get #get-container .get-list .get-marketing-title, .get-design-title {
+    font-family: 'Uni Neue Heavy', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: initial;
+}
+
+#get #get-container .get-list .get-list-marketing .get-marketing-title-circle, .get-design-title-circle {
+    width: 28px;
+    height: 28px;
+    background: #FAD537;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+#get #get-container .get-list .get-list-marketing .get-marketing-text {
+    margin-bottom: 15px;
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#get #get-container .get-list .get-list-design .get-design-text {
+    margin-bottom: 20px;
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+li {
+    padding-left: 15px;
+}
+
+ul {
+    margin: 20px 0 0 0;
+    padding-left: 27px;
+}
+
+li::marker {
+    display: block;
+    float: left;
+    width: 9px;
+    height: 9px;
+    color: #FAD537;
+    border-radius: 50%;
+}
+
+#strategy #strategy-container {
+    margin: 0 auto;
+    max-width: 1110px;
+    padding: 80px 0;
+    color: #171714;
+}
+
+#strategy #strategy-container h2 {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+#strategy #strategy-container h2 span {
+    background-color: #FAD537;
+    padding: 0 10px 0 6px;
+}
+
+#strategy #strategy-container .strategy-list {
+    display: flex;
+    gap: 30px;
+}
+
+#strategy #strategy-container .strategy-list .strategy-list-item {
+    background: white;
+    border-radius: 10px;
+}
+
+#strategy #strategy-container .strategy-list .strategy-list-item .strategy-item-image {
+    margin: 0 0 30px 0;
+}
+
+.strategy-item-title {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.strategy-list-item .strategy-item-subtitle {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 16px;
+    margin: 15px 0 10px 0;
+    padding: 0 20px;
+}
+
+.strategy-item-price .price-1 {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 24px;
+    background-color: #FAD537;
+    padding: 0 5px 0 5px;
+    margin-right: 10px;
+}
+
+.strategy-item-price .price-2 {
+    opacity: 20%;
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 24px;
+}
+
+.strategy-item-price {
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.strategy-item-quote {
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.strategy-item-cost {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 30px;
+    margin: 35px 0 20px 0;
+    padding: 0 20px;
+}
+
+.strategy-item-cost div {
+    margin-top: 156px;
+}
+
+.strategy-item-design {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.strategy-item-design span {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.bnt-more, .bnt {
+    padding: 0 20px;
+}
+
+.bnt-more button {
+    padding: 15px 45px;
+    width: 309px;
+    height: 54px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    font-family: 'Uni Neue Heavy', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    color: #171714;
+    border: 0;
+    margin: 20px 0;
+}
+
+.bnt button {
+    font-family: 'Uni Neue Heavy', sans-serif;
+    margin-bottom: 20px;
+}
+
+#tagline #tagline-container {
+    margin: 0 auto 80px auto;
+    max-width: 1110px;
+    padding: 75px 0 75px 85px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#tagline #tagline-container .tagline-text {
+    font-family: 'Uni Neue Bold', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #171714;
+    box-sizing: border-box;
+}
+
+#goal {
+    background-color: #171714;
+}
+
+#goal #goal-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 135px 0;
+}
+
+#goal #goal-container .goal-text {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+#goal #goal-container .goal-text span {
+    font-family: 'Uni Neue Black', sans-serif;
+    background-color: #FAD537;
+    padding: 0 20px 3px 6px;
+    color: #171714;
+}
+
+#footer #footer-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0 80px 0;
+    color: #171714;
+}
+
+#footer #footer-container .footer-contacts {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: top;
+}
+
+
+#footer #footer-container .footer-contacts .footer-contacts-title {
+    font-family: 'Uni Neue Black', sans-serif;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+#footer #footer-container .footer-contacts .footer-contacts-item .footer-contacts-text {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer #footer-container .footer-contacts .footer-contacts-item .footer-contacts-text a {
+    font-family: 'Uni Neue', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+    text-decoration: none;
+    color: #171714;
+}
+
+#footer #footer-container .footer-contacts .footer-contacts-item {
+    margin: 30px 0;
+}
+
+#footer #footer-container .footer-contacts .footer-contacts-item .footer-contacts-circle {
+    width: 39px;
+    height: 39px;
+    background: #FAD537;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+#strategy #strategy-container .strategy-container-popup .strategy-popup h2 {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.strategy-container-popup .strategy-item-quote {
+    margin-top: 15px;
+}
+
+.strategy-container-popup .strategy-popup .strategy-item-cost {
+    margin: 25px 0 5px 0;
+    padding: 0;
+}
+
+.strategy-container-popup .strategy-popup .strategy-item-design {
+    padding: 0;
+}
+
+.strategy-container-popup .strategy-popup .bnt {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.strategy-container-popup .strategy-popup .bnt button {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.strategy-content .strategy-ul {
+    display: flex;
+    align-items: baseline;
+}
+
+.strategy-content .strategy-ul .strategy-li-text {
+    margin: 10px 0 10px 10px;
+    font-family: 'Uni Neue Book', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.strategy-container-popup .strategy-content .strategy-item-subtitle {
+    padding: 0 0;
+    margin: 15px 0 10px 0;
+}
+
+.strategy-container-popup .strategy-content .strategy-item-quote {
+    padding: 0 0;
+}
+
+.strategy-container-popup .strategy-content .strategy-item-quote {
+    padding: 0 0;
+}
+
+.strategy-container-popup .strategy-content .bnt {
+    padding: 0 0;
+}
+
+.strategy-container-popup .strategy-popup .strategy-content .strategy-item-price {
+    padding: 0 0;
+}
+
+.strategy-popup .strategy-content .strategy-item-cost div {
+    margin-top: 0px;
+}
+
+.strategy-container-popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.popup_opened {
+    display: flex;
+}
+
+.strategy-popup {
+    top: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 40.67px 8.33px rgba(2, 7, 8, 1);
+    width: 443px;
+    padding: 41px 55px 50px 55px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#strategy .strategy-cancel {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+}
+
+
+#consultation-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#consultation {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 40.67px 8.33px rgba(2, 7, 8, 1);
+    padding: 40px 55px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#consultation-cancel {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+#consultation-content h2 {
+    font-family: "Uni Neue Black", sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+#consultation-text {
+    font-family: "Uni Neue Book", sans-serif;
+    font-size: 16px;
+    margin: 10px 0 15px 0;
+}
+
+#consultation-error {
+    color: red;
+    font-family: "Uni Neue Book", sans-serif;
+    font-size: 16px;
+}
+
+.consultation-input input {
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    outline: 0;
+    font-family: "Uni Neue Book", sans-serif;
+}
+
+#consultation-error {
+    display: none;
+}
+
+#consultation-content .bnt{
+    padding: 0;
+}
+
+#consultation-content .bnt button {
+    width: 100%;
+
+}
+
